@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsGrades", "StudentsG
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A4E6A871-B934-4DE8-81FB-FFF1E0949E5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGradesTest", "StudentGradesTest\StudentGradesTest.csproj", "{EF07845A-10F7-4EBD-96C8-70231AE60E7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGrades.Test.MsTest", "StudentGradesTest\StudentGrades.Test.MsTest.csproj", "{EF07845A-10F7-4EBD-96C8-70231AE60E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGrades.Test.Xunit.Test", "StudentGrades.Test.Xunit.Test\StudentGrades.Test.Xunit.Test.csproj", "{60A0D2CC-FFEC-4336-9E0C-D6279F64450F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{EF07845A-10F7-4EBD-96C8-70231AE60E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF07845A-10F7-4EBD-96C8-70231AE60E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF07845A-10F7-4EBD-96C8-70231AE60E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A0D2CC-FFEC-4336-9E0C-D6279F64450F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A0D2CC-FFEC-4336-9E0C-D6279F64450F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A0D2CC-FFEC-4336-9E0C-D6279F64450F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A0D2CC-FFEC-4336-9E0C-D6279F64450F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EF07845A-10F7-4EBD-96C8-70231AE60E7F} = {A4E6A871-B934-4DE8-81FB-FFF1E0949E5E}
+		{60A0D2CC-FFEC-4336-9E0C-D6279F64450F} = {A4E6A871-B934-4DE8-81FB-FFF1E0949E5E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B4CC2CB-AF32-43E4-A69F-FE1D0CC011BE}
